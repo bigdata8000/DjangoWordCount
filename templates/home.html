@@ -1,0 +1,11 @@
+<h1>Word Count</h1>
+
+<p>Write some text in the below box and this app will calculate the frequency of each word.</p>
+
+<form action="{% url 'count' %}">
+    <textarea cols="40", rows="5" name="fulltext"></textarea>
+    <br />
+    <input type="submit" value="Count!" />
+</form>
+
+<p>---- Henry Lam 2019 ----</p>
